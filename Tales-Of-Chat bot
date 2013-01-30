@@ -366,7 +366,7 @@
   })();
 
   pupOnline = function() {
-    return API.sendChat("Enter Velvet Room Attendant!");
+    return API.sendChat("I summon thee... Let's go Corrine!");
   };
 
   populateUserData = function() {
