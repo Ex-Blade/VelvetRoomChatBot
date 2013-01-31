@@ -946,7 +946,7 @@
       msg = "1) Mon-Fri Tales of music, Sat-Sun Anime/VGM ";
       msg += "2) No super extended editions. If the track has several loops or is a mash-up longer than 10 minutes, it will be skipped, ";
       msg += "3) Try to WOOT most of the time. Leave MEHs for truly terrible tracks, ";
-      msg += "4) Above all, HAVE FUN IN THE TALES OF ROOM!!";
+      msg += "4) Have fun!";
       return API.sendChat(msg);
     };
 
@@ -1230,17 +1230,17 @@
     }
 
     dieCommand.prototype.init = function() {
-      this.command = '/die';
+      this.command = '/judgement';
       this.parseType = 'exact';
-      return this.rankPrivelege = 'manager';
+      return this.rankPrivelege = 'bouncer';
     };
 
     dieCommand.prototype.functionality = function() {
-      API.sendChat('Unhooking Events...');
+      API.sendChat('You're casting WHAT now!?');
       undoHooks();
-      API.sendChat('Deleting bot data...');
+      API.sendChat('W-w-wait, please! Anything but that!');
       data.implode();
-      return API.sendChat('Consider me dead');
+      return API.sendChat('NOOOOOOOOOOOOOOOOO!');
     };
 
     return dieCommand;
