@@ -945,8 +945,8 @@
       var msg;
       msg = "1) Mon-Fri Tales of music, Sat-Sun Anime/VGM ";
       msg += "2) No super extended editions. If the track has several loops or is a mash-up longer than 10 minutes, it will be skipped, ";
-      msg += "3) Try to WOOT most of the time. Leave MEHs for truly terrible tracks, ";
-      msg += "4) Have fun!";
+      msg += "3) WOOT most of the time, MEH when it's truly bad, ";
+      msg += "4) Above all, HAVE FUN IN THE TALES OF ROOM!!";
       return API.sendChat(msg);
     };
 
@@ -1221,21 +1221,21 @@
 
   })(Command);
 
-  dieCommand = (function(_super) {
+  judgementCommand = (function(_super) {
 
-    __extends(dieCommand, _super);
+    __extends(judgementCommand, _super);
 
-    function dieCommand() {
-      return dieCommand.__super__.constructor.apply(this, arguments);
+    function judgementCommand() {
+      return judgementCommand.__super__.constructor.apply(this, arguments);
     }
 
-    dieCommand.prototype.init = function() {
+    judgementCommand.prototype.init = function() {
       this.command = '/judgement';
       this.parseType = 'exact';
       return this.rankPrivelege = 'bouncer';
     };
 
-    dieCommand.prototype.functionality = function() {
+    judgementCommand.prototype.functionality = function() {
       API.sendChat('You're casting WHAT now!?');
       undoHooks();
       API.sendChat('W-w-wait, please! Anything but that!');
@@ -1243,7 +1243,7 @@
       return API.sendChat('NOOOOOOOOOOOOOOOOO!');
     };
 
-    return dieCommand;
+    return judgementCommand;
 
   })(Command);
 
