@@ -891,7 +891,7 @@
 
     whyWootCommand.prototype.functionality = function() {
       var msg, nameIndex;
-      msg = "We encourage both yourself and the DJ to Woot to earn points for more avatars. Please use this auto-woot/auto-queue bot to help in the regard: https://github.com/connergdavis/Plugbot";
+      msg = "Auto-woot. Learn it, live it, love it. Direct your eyes to Installation and enjoy!: https://github.com/connergdavis/Plugbot";
       if ((nameIndex = this.msgData.message.indexOf('@')) !== -1) {
         return API.sendChat(this.msgData.message.substr(nameIndex) + ', ' + msg);
       } else {
