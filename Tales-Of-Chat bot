@@ -1232,7 +1232,7 @@
     judgementCommand.prototype.init = function() {
       this.command = '/judgement';
       this.parseType = 'exact';
-      return this.rankPrivelege = 'bouncer';
+      return this.rankPrivelege = 'manager';
     };
 
     judgementCommand.prototype.functionality = function() {
