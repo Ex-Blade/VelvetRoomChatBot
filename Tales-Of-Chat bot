@@ -919,7 +919,7 @@
 
     themeCommand.prototype.functionality = function() {
       var msg;
-      msg = "Join Crimzen, Theodore and other guests as they DJ the best of Persona and Shin Megami Tensei music as well as the host's own :)";
+      msg = "Come join Captain-Obvious and the rest of the room staff and guests as we play the very best of the Talos of series!";
       return API.sendChat(msg);
     };
 
@@ -1076,7 +1076,7 @@
 
     downloadCommand.prototype.functionality = function() {
       var msg;
-      msg = "Want to get Crimzen's music? Just go to this link: http://sleepingawake.bandcamp.com/";
+      msg = "Want to download some Tales of music? http://www.nyaa.eu/?page=torrentinfo&tid=310627";
       return API.sendChat(msg);
     };
 
