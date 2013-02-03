@@ -919,7 +919,7 @@
 
     themeCommand.prototype.functionality = function() {
       var msg;
-      msg = "Come join Captain-Obvious and the rest of the room staff and guests as we play the very best of the Talos of series!";
+      msg = "Come join Captain-Obvious and the rest of the room staff and guests as we play the very best of the Tales of series!";
       return API.sendChat(msg);
     };
 
@@ -1858,7 +1858,7 @@
   handleUserJoin = function(user) {
     data.userJoin(user);
     data.users[user.id].updateActivity();
-    return API.sendChat("/em: " + user.username + ", welcome to the Tales of Party!");
+    return API.sendChat("/em: " + user.username + ", welcome to the Tales of Party! Our schedule is Tales of music Mon-Fri and anime/VGM Sat-Sun.");
   };
 
   handleNewSong = function(obj) {
