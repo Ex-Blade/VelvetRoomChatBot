@@ -1076,7 +1076,7 @@
 
     downloadCommand.prototype.functionality = function() {
       var msg;
-      msg = "Want to download some Tales of music? http://www.nyaa.eu/?page=torrentinfo&tid=310627";
+      msg = "Go here: http://www.nyaa.eu/?page=torrentinfo&tid=310627 to get some Tales of music.";
       return API.sendChat(msg);
     };
 
