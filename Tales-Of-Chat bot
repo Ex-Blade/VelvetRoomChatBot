@@ -762,7 +762,7 @@
 
     steakCommand.prototype.randomSteak = function() {
       var r, steaks;
-      steaks = ["some Mild Curry! ...Asbel wont stop staring", "some scraps. Reid stumbled upon your kitchen, and all of your food is gone", "a free Mabo Curry, unfortunatley Milla got to it first", "some Royal Crablettes! ...Sophie is drooling over them."];
+      steaks = ["some of Repede's dog food. After all, it's all the same mush once it hits your stomach", "some Mild Curry! ...Asbel wont stop staring", "some scraps. Reid stumbled upon your kitchen, and all of your food is gone", "a free Mabo Curry, unfortunatley Milla got to it first", "some Royal Crablettes! ...Sophie is drooling over them."];
       r = Math.floor(Math.random() * steaks.length);
       return steaks[r];
     };
@@ -803,7 +803,7 @@
 
     cookieCommand.prototype.getCookie = function() {
       var c, cookies;
-      cookies = ["some rubble. It appears that Flynn forgot to turn the oven off, Yuri wont be pleased", "a plate of Mixed Drinks! Too bad Arche got to them first and burnt the kitchen down, along with blowing up your room", "valentines chocolates from Emil! Marta hid your corpse later that night", "a plate of bananas, too bad Pascal ate them already", "a flan! You receive a menacing glare from Leon, though....", "some scraps. Reid stumbled upon your kitchen, and all of your food is gone", "some hot coffee. No, I lied it's actually cold coffee. Nope, it's hot coffee..."];
+      cookies = ["some of Yuri's delicious crumpets! Remember, food is made wth love~", "some rubble. It appears that Flynn forgot to turn the oven off, Yuri wont be pleased", "a plate of Mixed Drinks! Too bad Arche got to them first and burnt the kitchen down, along with blowing up your room", "valentines chocolates from Emil! Marta hid your corpse later that night", "a plate of bananas, too bad Pascal ate them already", "a flan! You receive a menacing glare from Leon, though....", "some scraps. Reid stumbled upon your kitchen, and all of your food is gone", "some hot coffee. No, I lied it's actually cold coffee. Nope, it's hot coffee..."];
       c = Math.floor(Math.random() * cookies.length);
       return cookies[c];
     };
