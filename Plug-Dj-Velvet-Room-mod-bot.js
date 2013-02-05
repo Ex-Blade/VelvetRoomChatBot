@@ -803,7 +803,7 @@
 
     cookieCommand.prototype.getCookie = function() {
       var c, cookies;
-      cookies = ["Sweet Fries. This reminds Akihiko of this childhood!", "a Sugar Cookie. Junpei loves these!", "nama-yatsuhashi and konpeito from Kyoto. Ken loves these snacks", "a Chocolate Truffle. Mitsuru's icy exterior broke down after eating one of these", "a Banana Cupcake. Yukari went, well, bananas over these", "the PENGUIN animal cracker! Kanji's gonna be jealous!", "the Christmas edition of Mystery Food X. It looked and tasted so delicious that it even surprised Naoto", "one of Fuuka's terrible experiments...", "Mystery Food X! *vomits*"];
+      cookies = ["Sweet Fries. This reminds Akihiko of his childhood!", "a Sugar Cookie. Junpei loves these!", "nama-yatsuhashi and konpeito from Kyoto. Ken loves these snacks", "a Chocolate Truffle. Mitsuru's icy exterior broke down after eating one of these", "a Banana Cupcake. Yukari went, well, bananas over these", "the PENGUIN animal cracker! Kanji's gonna be jealous!", "the Christmas edition of Mystery Food X. It looked and tasted so delicious that it even surprised Naoto", "one of Fuuka's terrible experiments...", "Mystery Food X! *vomits*"];
       c = Math.floor(Math.random() * cookies.length);
       return cookies[c];
     };
