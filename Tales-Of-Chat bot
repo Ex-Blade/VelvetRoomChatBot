@@ -891,7 +891,7 @@
 
     whyWootCommand.prototype.functionality = function() {
       var msg, nameIndex;
-      msg = "Auto-woot, auto pilot to keeping your avi dancing. Learn it, live it, love it. It's almost like setting your Tales game on Auto while earning points, EXP, Grade, and Gald! - https://github.com/connergdavis/Plugbot#installation";
+      msg = "Auto-woot, auto pilot to keeping your avi dancing. Learn it, live it, love it. It's almost like setting your Tales game on Auto while earning points, EXP, Grade, and Gald! - http://pastebin.com/raw.php?i=ywuQK2XA Click link, highlight text, and drag it into your bookmarks. Remember to click it every time you join! Enjoy~";
       if ((nameIndex = this.msgData.message.indexOf('@')) !== -1) {
         return API.sendChat(this.msgData.message.substr(nameIndex) + ', ' + msg);
       } else {
