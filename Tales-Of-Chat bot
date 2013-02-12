@@ -1052,7 +1052,7 @@
 
     badQualityCommand.prototype.functionality = function() {
       var msg;
-      msg = "Flagged for bad sound quality. Where do you get your music, Adachi's house? Don't play this low quality tune again or we'll send Mara to violate you!!";
+      msg = "Flagged for bad sound quality. Where do you get your music, Dist's house? Don't play this low quality tune again or we'll send Jade to violate you!!";
       return API.sendChat(msg);
     };
 
