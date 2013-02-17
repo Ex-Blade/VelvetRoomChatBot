@@ -1236,11 +1236,11 @@
     };
 
     dieCommand.prototype.functionality = function() {
-      API.sendChat('Unhooking Events...');
+      API.sendChat('I see. Is that your final decision?');
       undoHooks();
-      API.sendChat('Deleting bot data...');
+      API.sendChat('Very well then.');
       data.implode();
-      return API.sendChat('Consider me dead');
+      return API.sendChat('HAvE a NiCE dEatH.');
     };
 
     return dieCommand;
