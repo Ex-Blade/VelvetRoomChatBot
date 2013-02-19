@@ -946,7 +946,7 @@
             msg = "1) No foul language. Please show love and respect to everyone!  ";
       msg += "2) Tales Mon-Sun and Anime/VGM/Disney 90's/JP/Korean Sat-Sun, ";
       msg += "3) Booth can be locked when we're few to fight of trolls, ";
-      msg += "4) Last, but not least, no spoilers regarding unlocalized games and in general. Other than that, party on!";
+      msg += "4) No spoilers, especially not in chat. Other than that, party on!";
 
       return API.sendChat(msg);
     };
