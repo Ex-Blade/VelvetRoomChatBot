@@ -943,10 +943,10 @@
 
     rulesCommand.prototype.functionality = function() {
       var msg;
-            msg = "1) Mon-Fri Tales of music, Sat-Sun Anime/VGM ";
-      msg += "2) No super extended editions or mash-ups that's longer than 10 minutes, it will be skipped ";
-      msg += "3) WOOT most of the time, MEH when it's truly bad, ";
-      msg += "4) Above all, HAVE FUN IN THE TALES OF ROOM!!";
+            msg = "1) No foul language. Please show love and respect to everyone!  ";
+      msg += "2) Tales Mon-Sun and Anime/VGM/Disney 90's/JP/Korean Sat-Sun, ";
+      msg += "3) Booth can be locked when we're few to fight of trolls, ";
+      msg += "4) Last, but not least, no spoilers regarding unlocalized games and in general. Other than that, party on!";
 
       return API.sendChat(msg);
     };
