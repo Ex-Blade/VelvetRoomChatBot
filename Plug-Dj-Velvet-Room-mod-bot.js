@@ -945,7 +945,7 @@
       var msg;
       msg = "1) See this pic: http://i45.tinypic.com/eb7a8l.png, ";
       msg += "2) No super extended editions. Tracks with more than 4 loops or 10 minutes long = skip, ";
-      msg += "3) Try to WOOT most of the time. Leave MEHs for truly terrible tracks, ";
+      msg += "3) WOOT most of the time. Leave MEHs for truly terrible tracks, ";
       msg += "4) Above all, HAVE FUN IN THE VELVET ROOM!!";
       return API.sendChat(msg);
     };
