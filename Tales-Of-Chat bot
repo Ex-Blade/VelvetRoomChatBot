@@ -943,10 +943,10 @@
 
     rulesCommand.prototype.functionality = function() {
       var msg;
-            msg = "1) No foul language. Please show love and respect to everyone!  ";
+            msg = "1) Please show love and respect to everyone!  ";
       msg += "2) Tales Mon-Sun - Anime/VGM/Disney Renaissance/JP/Korean Sat-Sun, ";
       msg += "3) Booth can be locked when we're few to fight off trolls, ";
-      msg += "4) No spoilers, EVER. Other than that, party on!";
+      msg += "4) No spoilers, in chat, EVER. Other than that, party on!";
 
       return API.sendChat(msg);
     };
