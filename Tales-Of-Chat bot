@@ -948,7 +948,8 @@
       msg += "3) Tales Mon-Sun - Anime/VGM/Disney Renaissance/JP/Korean Sat-Sun, ";
       msg += "4) 8 minute songs except Tales/abridged, ";
       msg += "5) DJ locked when we're few, ";
-      msg += "6) No spoilers. Party on!";
+      msg += "6) No spoilers. ";
+      msg += "7)  Party on!";
 
       return API.sendChat(msg);
     };
