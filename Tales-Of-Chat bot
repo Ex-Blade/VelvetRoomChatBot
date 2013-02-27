@@ -721,7 +721,7 @@
 
     ramenCommand.prototype.randomRamen = function() {
       var r, ramens;
-      ramens = ["a pork and soy sauce bowl from Hagakure Ramen. The collagen will make your skin beautiful", "a steak bowl from Chinese Diner Aiya. You won't leave with an empty stomach", "Hagakure Ramen's signature, Hagakure Bowl. Best bowl of ramen in Iwatodai", "the Rainy Day Mega Beef Bowl Special from Chinese Diner Aiya. You entered the portal to the meat dimension", "the ramen that Yukari burnt and tried to serve Koromaru. Needless to say, you refused it as well", "a tofu bowl that Rise made, but it's so spicy that it feel like a volcano in your mouth", "an omelette Yukiko made, but it's completely tasteless", "Mystery Food X! *vomits*"];
+      ramens = ["some of Raine's cooking. Needless to say, you refused it", "some of Anise's beef noodles! Just make sure you still have your wallet when you finish chowing"];
       r = Math.floor(Math.random() * ramens.length);
       return ramens[r];
     };
@@ -762,7 +762,7 @@
 
     steakCommand.prototype.randomSteak = function() {
       var r, steaks;
-      steaks = ["some steak croquettes from Souzai Daigoku. Nice and juicy", "a beef steak dinner from Junes. Dry and tough...", "a Fsteak? Did Marie make this?", "a failed attempt by Chie to make her own steaks. Looks like charcoal", "a Prodigy Platter from Wakatsu Restaurant. Get smarter while you digest", "a Wild-Duck Burger. This is so fattening", "the feast that Shinjiro made for the rest of SEES. You just entered the portal to the delicious dimension", "Mystery Food X! *vomits*"];
+      steaks = ["some of Repede's dog food. After all, it's all the same mush once it hits your stomach", "some Mild Curry! ...Asbel wont stop staring", "some scraps. Reid stumbled upon your kitchen, and all of your food is gone", "a free Mabo Curry, unfortunatley Milla got to it first", "some Royal Crablettes! ...Sophie is drooling over them"];
       r = Math.floor(Math.random() * steaks.length);
       return steaks[r];
     };
@@ -803,7 +803,7 @@
 
     cookieCommand.prototype.getCookie = function() {
       var c, cookies;
-      cookies = ["Sweet Fries. This reminds Akihiko of his childhood!", "a Sugar Cookie. Junpei loves these!", "nama-yatsuhashi and konpeito from Kyoto. Ken loves these snacks", "a Chocolate Truffle. Mitsuru's icy exterior broke down after eating one of these", "a Banana Cupcake. Yukari went, well, bananas over these", "the PENGUIN animal cracker! Kanji's gonna be jealous!", "the Christmas edition of Mystery Food X. It looked and tasted so delicious that it even surprised Naoto", "one of Fuuka's terrible experiments...", "Mystery Food X! *vomits*"];
+      cookies = ["some of Yuri's delicious crumpets! Remember, food is made wth love~", "a plate of Mixed Drinks! Too bad Arche got to them first and burnt the kitchen down, along with blowing up your room", "valentines chocolates from Emil! Marta hid your corpse later that night", "a plate of bananas, too bad Pascal ate them already", "a flan! You receive a menacing glare from Leon, though....", "some hot coffee. No, I lied it's actually cold coffee. Nope, it's hot coffee..."];
       c = Math.floor(Math.random() * cookies.length);
       return cookies[c];
     };
