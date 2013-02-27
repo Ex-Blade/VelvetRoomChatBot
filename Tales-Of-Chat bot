@@ -721,7 +721,7 @@
 
     ramenCommand.prototype.randomRamen = function() {
       var r, ramens;
-      ramens = ["some scraps. Reid stumbled upon your kitchen, and all of your food is gone", "some of Raine's cooking. Needless to say, you refused it"];
+      ramens = ["some of Raine's cooking. Needless to say, you refused it"];
       r = Math.floor(Math.random() * ramens.length);
       return ramens[r];
     };
@@ -803,7 +803,7 @@
 
     cookieCommand.prototype.getCookie = function() {
       var c, cookies;
-      cookies = ["some of Yuri's delicious crumpets! Remember, food is made wth love~", "some rubble. It appears that Flynn forgot to turn the oven off, Yuri wont be pleased", "a plate of Mixed Drinks! Too bad Arche got to them first and burnt the kitchen down, along with blowing up your room", "valentines chocolates from Emil! Marta hid your corpse later that night", "a plate of bananas, too bad Pascal ate them already", "a flan! You receive a menacing glare from Leon, though....", "some scraps. Reid stumbled upon your kitchen, and all of your food is gone", "some hot coffee. No, I lied it's actually cold coffee. Nope, it's hot coffee..."];
+      cookies = ["some of Yuri's delicious crumpets! Remember, food is made wth love~", "a plate of Mixed Drinks! Too bad Arche got to them first and burnt the kitchen down, along with blowing up your room", "valentines chocolates from Emil! Marta hid your corpse later that night", "a plate of bananas, too bad Pascal ate them already", "a flan! You receive a menacing glare from Leon, though....", "some hot coffee. No, I lied it's actually cold coffee. Nope, it's hot coffee..."];
       c = Math.floor(Math.random() * cookies.length);
       return cookies[c];
     };
@@ -843,7 +843,7 @@
 
     punishCommand.prototype.getPunishment = function(username) {
       var p, punishment, punishments;
-      punishments = ["/me Luke forced Mieu to breathe fire in @{victim}'s face", "/me sold your soul to Innes because you don't have enough money", "/me While you were sleeping, Jade appeared from under your bed.... What was he doing there...?", "/me Asbel has once again failed to protect @{victim}... They ended up dying horribly", "/me locks @{victim} in the same room as Jade Curtiss, ignoring the loud shrieks coming from the other side of the door", "/me calls upon Gelda Nebilim to use Fragmented End on @{victim}", "/me requests Karol Capel to use Overlord Reign Impact on @{victim}", "/me allows Van Grants to use Celestial Elegy on @{victim}", "/me forces @{victim} to eat one of Raine Sage's cooking experiments. *vomit*", "/me calls upon Kratos Aurion to cast Judgement on @{victim}", "/me swaps Corrine for @{victim} right before Volt deals the fatal blow", "/me looks the other way as Zelos Wilder begins to molest @{victim}", "/me threatens to sic the entire Female Tales of cast on Guy Cecil unless he uses Brilliant Overlord on @{victim}", "/me casts Meteor Storm on @{victim}", "/me summons Origin to cast Rameesh on @{victim}", "/me calls Maxwell down from Exire to cast Gravity Well and Meteor Storm on @{victim}"];
+      punishments = ["/me Luke forced Mieu to breathe fire in @{victim}'s face", "/me sold @{victim}'s soul to Innes because you don't have enough money", "/me While you were sleeping, Jade appeared from under @{victim}'s bed.... What was he doing there...?", "/me Asbel has once again failed to protect @{victim}... They ended up dying horribly", "/me locks @{victim} in the same room as Jade Curtiss, ignoring the loud shrieks coming from the other side of the door", "/me calls upon Gelda Nebilim to use Fragmented End on @{victim}", "/me requests Karol Capel to use Overlord Reign Impact on @{victim}", "/me allows Van Grants to use Celestial Elegy on @{victim}", "/me forces @{victim} to eat one of Raine Sage's cooking experiments. *vomit*", "/me calls upon Kratos Aurion to cast Judgement on @{victim}", "/me swaps Corrine with @{victim} right before Volt deals the fatal blow", "/me looks the other way as Zelos Wilder begins to molest @{victim}", "/me threatens to sic the entire Female Tales of cast on Guy Cecil unless he uses Brilliant Overlord on @{victim}", "/me casts Meteor Storm on @{victim}", "/me summons Origin to cast Rameesh/Collapse on @{victim}", "/me calls Maxwell down from Exire to cast Gravity Well and Meteor Storm on @{victim}"];
       p = Math.floor(Math.random() * punishments.length);
       punishment = punishments[p].replace('{victim}', username);
       return punishment;
