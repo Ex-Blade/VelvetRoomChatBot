@@ -514,12 +514,12 @@
           user = _ref[id];
           if (user.getUser().username === username) {
             user["protected"] = true;
-            API.sendChat("I shall protect you @" + username + " (I just wont kick you)");
+            API.sendChat("Asbel shall protect you @" + username + " (But he might fail)");
             return;
           }
         }
       }
-      API.sendChat("That aint no name I ever did see");
+      API.sendChat("Getting the name wrong confused Asbel, he failed to mamoru");
     };
 
     return protectCommand;
