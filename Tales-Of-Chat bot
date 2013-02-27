@@ -974,8 +974,8 @@
 
     roomHelpCommand.prototype.functionality = function() {
       var msg1;
-            msg1 = "Welcome to the Tales of room! If you have any questions about how to get started, please check out our plug.dj help section http://www.facebook.com/groups/315452808564977/doc/326106614166263/  ";
-            msg1 += "and our plug.dj bug section http://www.facebook.com/groups/315452808564977/doc/329386677171590/ to get all your questions answered.";
+            msg1 = "If you have any questions about how to get started, please check our plug.dj help section http://www.facebook.com/groups/315452808564977/doc/326106614166263/  ";
+            msg1 += "and our plug.dj bug section http://www.facebook.com/groups/315452808564977/doc/329386677171590/ to get your questions answered.";
       API.sendChat(msg1);
       return setTimeout((function() {
         return API.sendChat(msg1);
