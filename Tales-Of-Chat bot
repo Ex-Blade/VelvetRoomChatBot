@@ -721,7 +721,7 @@
 
     ramenCommand.prototype.randomRamen = function() {
       var r, ramens;
-      ramens = ["some of Raine's cooking. Needless to say, you refused it"];
+      ramens = ["some of Raine's cooking. Needless to say, you refused it", "some of Anise's beef noodles! Just make sure you still have your wallet when you finish chowing"];
       r = Math.floor(Math.random() * ramens.length);
       return ramens[r];
     };
@@ -818,7 +818,7 @@
           API.sendChat("/em doesn't see '" + msg.substr(8) + "' in room and eats cookie himself");
           return false;
         } else {
-          return API.sendChat("@" + user.username + ", @" + this.msgData.from + " has rewarded you with " + this.getCookie() + ". Enjoy.");
+          return API.sendChat(Hey "@" + user.username + ", looks like @" + this.msgData.from + " has rewarded you with " + this.getCookie() + ". Enjoy.");
         }
       }
     };
