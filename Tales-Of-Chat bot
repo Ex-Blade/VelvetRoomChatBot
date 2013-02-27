@@ -943,10 +943,12 @@
 
     rulesCommand.prototype.functionality = function() {
       var msg;
-            msg = "1) Please show love and respect to everyone!  ";
-      msg += "2) Tales Mon-Sun - Anime/VGM/Disney Renaissance/JP/Korean Sat-Sun, ";
-      msg += "3) Booth can be locked when we're few to fight off trolls, ";
-      msg += "4) No spoilers, in chat, EVER. Other than that, party on!";
+            msg = "1) Please show love and respect to everyone! ";
+      msg += "2) Leave personal matters outside the roomm ";
+      msg += "3) Tales Mon-Sun - Anime/VGM/Disney Renaissance/JP/Korean Sat-Sun, ";
+      msg += "4) Time limit 8 minutes except Tales/abridged, ";
+      msg += "5) Booth can be locked when we're few, ";
+      msg += "6) No spoilers. Other than that, party on!";
 
       return API.sendChat(msg);
     };
