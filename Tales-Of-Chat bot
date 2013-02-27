@@ -1383,7 +1383,7 @@
     popCommand.prototype.init = function() {
       this.command = '/pop';
       this.parseType = 'exact';
-      return this.rankPrivelege = 'bouncer';
+      return this.rankPrivelege = 'user';
     };
 
     popCommand.prototype.functionality = function() {
@@ -1408,7 +1408,7 @@
     pushCommand.prototype.init = function() {
       this.command = '/push';
       this.parseType = 'startsWith';
-      return this.rankPrivelege = 'bouncer';
+      return this.rankPrivelege = 'user';
     };
 
     pushCommand.prototype.functionality = function() {
