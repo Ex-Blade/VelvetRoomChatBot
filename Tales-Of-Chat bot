@@ -73,7 +73,7 @@
       {
         interval: 20,
         offset: 0,
-        msg: "This is your resident Tales of Attendant reminding you to come meet our other guests and join our Facebook group: https://www.facebook.com/groups/315452808564977/"
+        msg: "Corrine here, just reminding you to come meet our other guests and join our Facebook group: https://www.facebook.com/groups/315452808564977/"
       }, {
         interval: 30,
         offset: 5,
@@ -843,7 +843,7 @@
 
     punishCommand.prototype.getPunishment = function(username) {
       var p, punishment, punishments;
-      punishments = ["/me Arietta the Wild casts Big Bang on @{victim} for hurting her Liger Mommy", "/me Luke forced Mieu to breathe fire in @{victim}'s face", "/me sold @{victim}'s soul to Innes because you don't have enough money", "/me While you were sleeping, Jade appeared from under @{victim}'s bed.... What was he doing there...?", "/me Asbel has once again failed to protect @{victim}... They ended up dying horribly", "/me locks @{victim} in the same room as Jade Curtiss, ignoring the loud shrieks coming from the other side of the door", "/me calls upon Gelda Nebilim to use Fragmented End on @{victim}", "/me requests Karol Capel to use Overlord Reign Impact on @{victim}", "/me allows Van Grants to use Celestial Elegy on @{victim}", "/me forces @{victim} to eat one of Raine Sage's cooking experiments. *vomit*", "/me calls upon Kratos Aurion to cast Judgement on @{victim}", "/me swaps Corrine with @{victim} right before Volt deals the fatal blow", "/me looks the other way as Zelos Wilder begins to molest @{victim}", "/me threatens to sic the entire Female Tales of cast on Guy Cecil unless he uses Brilliant Overlord on @{victim}", "/me casts Meteor Storm on @{victim}", "/me summons Origin to cast Rameesh/Collapse on @{victim}", "/me calls Maxwell down from Exire to cast Gravity Well and Meteor Storm on @{victim}"];
+      punishments = ["/me sees Arietta the Wild cast Big Bang on @{victim} for hurting her Liger Mommy", "/me Luke forced Mieu to breathe fire in @{victim}'s face", "/me sold @{victim}'s soul to Innes because you don't have enough money", "/me While you were sleeping, Jade appeared from under @{victim}'s bed.... What was he doing there...?", "/me Asbel has once again failed to protect @{victim}... They ended up dying horribly", "/me locks @{victim} in the same room as Jade Curtiss, ignoring the loud shrieks coming from the other side of the door", "/me calls upon Gelda Nebilim to use Fragmented End on @{victim}", "/me requests Karol Capel to use Overlord Reign Impact on @{victim}", "/me allows Van Grants to use Celestial Elegy on @{victim}", "/me forces @{victim} to eat one of Raine Sage's cooking experiments. *vomit*", "/me calls upon Kratos Aurion to cast Judgement on @{victim}", "/me swaps Corrine with @{victim} right before Volt deals the fatal blow", "/me looks the other way as Zelos Wilder begins to molest @{victim}", "/me threatens to sic the entire Female Tales of cast on Guy Cecil unless he uses Brilliant Overlord on @{victim}", "/me casts Meteor Storm on @{victim}", "/me summons Origin to cast Rameesh/Collapse on @{victim}", "/me calls Maxwell down from Exire to cast Gravity Well and Meteor Storm on @{victim}"];
       p = Math.floor(Math.random() * punishments.length);
       punishment = punishments[p].replace('{victim}', username);
       return punishment;
@@ -1055,7 +1055,7 @@
 
     badQualityCommand.prototype.functionality = function() {
       var msg;
-      msg = "Flagged for bad sound quality. Where do you get your music, Dist's house? Don't play this low quality tune again or we'll send Jade to Mystic Cage you!!";
+      msg = "Target acquired, reasoned as bad sound quality. Where'd you find this song technology, Dist's house? Don't spin this low fon tech tune again or Jade will Mystic Cage you!!";
       return API.sendChat(msg);
     };
 
@@ -1316,7 +1316,7 @@
     };
 
     unlockCommand.prototype.functionality = function() {
-      API.sendChat(' summons back all the Cruxis Crystals');
+      API.sendChat('/me returns all the Cruxis Crystals to their owners');
       return data.unlockBooth();
     };
 
@@ -1855,7 +1855,7 @@
   };
 
   announceCurate = function(obj) {
-    return API.sendChat("/em: " + obj.user.username + " loves this song!");
+    return API.sendChat("/em: " + obj.user.username + " has feels for this song!");
   };
 
   handleUserJoin = function(user) {
