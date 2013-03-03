@@ -891,7 +891,7 @@
 
     whyWootCommand.prototype.functionality = function() {
       var msg, nameIndex;
-      msg = "Auto-woot, auto pilot to keeping your avi dancing. It's almost like setting your Tales game on Auto while earning points, EXP, Grade, and Gald! - http://pastebin.com/raw.php?i=ywuQK2XA Highlight the text, and drag to your bookmarks bar";
+      msg = "Auto-woot, auto pilot to keeping your avi dancing. Learn it, live it, love it. It's almost like setting your Tales game on Auto while earning points, EXP, Grade, and Gald! - Chrome http://goo.gl/xiZLa Firefox http://goo.gl/8WuCc ";
       if ((nameIndex = this.msgData.message.indexOf('@')) !== -1) {
         return API.sendChat(this.msgData.message.substr(nameIndex) + ', ' + msg);
       } else {
@@ -943,14 +943,13 @@
 
     rulesCommand.prototype.functionality = function() {
       var msg;
-            msg = "1) Show love and respect to everyone! ";
-      msg += "2) Leave personal matters outside of the room ";
-      msg += "3) Tales Mon-Sun - Anime/VGM/Disney Renaissance/JP/Korean Sat-Sun, ";
-      msg += "4) 8 minute songs except Tales/abridged, ";
-      msg += "5) DJ locked when we're few, ";
-      msg += "6) No spoilers. ";
-      msg += "7)  Party on!";
-
+            msg = "1) Click this link: http://goo.gl/DnMCX  ";
+      msg += "2) Did you click the link? ";
+      msg += "3) I hope you clicked on the link ";
+      msg += "5) Are you wondering where 4) went? ";
+      msg += "6) Did I get a smile out of you? <3 ";
+      msg += "7) Enjoy your time here! ";
+    
       return API.sendChat(msg);
     };
 
@@ -974,8 +973,8 @@
 
     roomHelpCommand.prototype.functionality = function() {
       var msg1;
-            msg1 = "Please check out our plug.dj help section http://www.facebook.com/groups/315452808564977/doc/326106614166263/ and our plug.dj bug section  ";
-            msg1 += "http://www.facebook.com/groups/315452808564977/doc/329386677171590/ on how to get started.";
+            msg1 = "Please check out our plug.dj help section: http://goo.gl/GUlWs and our plug.dj bug section  ";
+            msg1 += "http://goo.gl/wbn7W and bot section http://goo.gl/3ZqiD on how to get started.";
       API.sendChat(msg1);
       return setTimeout((function() {
         return API.sendChat(msg1);
@@ -1027,7 +1026,7 @@
 
     wootCommand.prototype.functionality = function() {
       var msg, nameIndex;
-      msg = "Want auto-woot? Check here. For CHROME users: https://www.facebook.com/media/set/?set=oa.344265189017072&type=1 and for FIREFOX users: https://www.facebook.com/media/set/?set=oa.344269389016652&type=1 ";
+      msg = "Want auto-woot? Check here. For CHROME users: http://goo.gl/xiZLa and for FIREFOX users: http://goo.gl/8WuCc  ";
       if ((nameIndex = this.msgData.message.indexOf('@')) !== -1) {
         return API.sendChat(this.msgData.message.substr(nameIndex) + ', ' + msg);
       } else {
